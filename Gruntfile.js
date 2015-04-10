@@ -73,25 +73,25 @@ module.exports = function (grunt) {
       // ==========
       cssmin: {
         target: {
-            files: [{
-              expand: true,
-              cwd: 'stylesheets',
-              src: ['*.css', '!*.min.css'],
-              dest: 'stylesheets',
-              ext: '.min.css'
-            }]
+          files: [{
+            expand: true,
+            cwd: 'stylesheets',
+            src: ['*.css', '!*.min.css'],
+            dest: 'stylesheets',
+            ext: '.min.css'
+          }]
         }
       },
       // JS Compile
       // ==========
       concat: {
         javascripts: {
-            src: [
-                'javascripts/js/sustainability-solutions-wordpress-theme.js',
-                'javascripts/js/lib/*.js',
-                'javascripts/js/_*.js'
-            ],
-            dest: 'javascripts/sustainability-solutions-wordpress-theme.js'
+          src: [
+              'javascripts/js/sustainability-solutions-wordpress-theme.js',
+              'javascripts/js/lib/*.js',
+              'javascripts/js/_*.js'
+          ],
+          dest: 'javascripts/sustainability-solutions-wordpress-theme.js'
         }
       },
       // JS Uglify
