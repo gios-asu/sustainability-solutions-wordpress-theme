@@ -50,7 +50,10 @@ module.exports = function (grunt) {
         options: {
           bundleExec: true,
           config: 'stylesheets/scss/.scss-lint.yml',
-          colorizeOutput: true
+          colorizeOutput: true,
+          exclude : [
+            'stylesheets/scss/_shame.scss'
+          ]
         }
       },
       // SASS Compile

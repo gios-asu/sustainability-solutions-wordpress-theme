@@ -3,5 +3,14 @@
  * ========================================================================
  * Copyright 2015 ASU
  * ======================================================================== */
+#asu_hdr img {
+  height: auto !important;
+  width: auto !important;
+}
+@media (max-width: 1199px) {
+  #asu_hdr img {
+    width: 400px !important;
+  }
+}
 
 /*# sourceMappingURL=sustainability-solutions-wordpress-theme.css.map */

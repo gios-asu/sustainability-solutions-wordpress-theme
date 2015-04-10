@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";;;;;AAAA,YAAa;EACX,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,eAAe;;AAEtB,0BAAmC;EAJrC,YAAa;IAKT,KAAK,EAAE,gBAAgB",
+"sources": ["scss/_shame.scss"],
 "names": [],
 "file": "sustainability-solutions-wordpress-theme.css"
 }
