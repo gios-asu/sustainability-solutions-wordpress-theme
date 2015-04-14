@@ -1,0 +1,14 @@
+.slick-next,
+.slick-prev {
+  &:before {
+    font-family: FontAwesome;
+  }
+}
+
+.slick-next:before {
+  content: '\f0a9';
+}
+
+.slick-prev:before {
+  content: '\f0a8';
+}

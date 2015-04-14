@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;;;AAAA,YAAa;EACX,UAAU,EAAE,MAAM;;;AAGpB,SAAU;EACR,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;;;AAGlB,WAAY;EACV,MAAM,EAAE,MAAM;;;ACVhB,YAAa;EACX,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,eAAe;;AAEtB,0BAAmC;EAJrC,YAAa;IAKT,KAAK,EAAE,gBAAgB",
-"sources": ["scss/_scaffolding.scss","scss/_shame.scss"],
+"mappings": ";;;;;AAAA,YAAa;EACX,UAAU,EAAE,MAAM;;;AAGpB,SAAU;EACR,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;;;AAGlB,WAAY;EACV,MAAM,EAAE,MAAM;;;AAGhB,UAAW;EACT,gBAAgB,ECdP,OAAO;;;ACEhB;kBAAS;EACP,WAAW,EAAE,WAAW;;;AAI5B,kBAAmB;EACjB,OAAO,EAAE,OAAO;;;AAGlB,kBAAmB;EACjB,OAAO,EAAE,OAAO;;;ACZlB,YAAa;EACX,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,eAAe;;AAEtB,0BAAmC;EAJrC,YAAa;IAKT,KAAK,EAAE,gBAAgB",
+"sources": ["scss/_scaffolding.scss","scss/_variables-colors.scss","scss/_slick.scss","scss/_shame.scss"],
 "names": [],
 "file": "sustainability-solutions-wordpress-theme.css"
 }

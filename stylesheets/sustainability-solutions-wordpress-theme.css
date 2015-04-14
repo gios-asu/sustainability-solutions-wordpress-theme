@@ -16,6 +16,23 @@
   margin: 0 auto;
 }
 
+.gold-back {
+  background-color: #f0ad4e;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: FontAwesome;
+}
+
+.slick-next:before {
+  content: '\f0a9';
+}
+
+.slick-prev:before {
+  content: '\f0a8';
+}
+
 #asu_hdr img {
   height: auto !important;
   width: auto !important;
