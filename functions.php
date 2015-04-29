@@ -27,4 +27,4 @@ HTML;
   return $html;
 }
 
-add_filter( 'asu_logo', 'sustainability_solutions_wordpress_theme_logo', 1 );
+//add_filter( 'asu_logo', 'sustainability_solutions_wordpress_theme_logo', 1 );
