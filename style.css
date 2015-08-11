@@ -15,3 +15,259 @@ GitHub Branch:    master
 /*
  * Note: the `Template` section is the FOLDER name of the parent template.
  */
+
+body{font-size:16px;
+}
+
+.hero-bg-img h1{font-size:60px;
+font-family:Helvetica, Arial, sans serif;
+font-weight:700;
+text-shadow:0px 0px 15px #000000;
+text-align:center;
+}
+
+.container-main{padding-top:20px;
+margin-right:56px;
+margin-left:56px;
+
+}
+
+h1{font-size:24px;
+}
+
+h2{font-size:22px;
+padding:10px 0px 20px 0px;
+margin-top:0px;
+}
+
+
+h3{font-size:24px;
+padding-top:10px;
+padding-bottom:20px;
+}
+
+h4{font-size:18px;
+}
+
+h5{font-size:14px;
+line-height:19px;
+}
+
+.navbar navbar-default container{padding-right:none;
+padding-left:none;
+}
+
+.headline-text{margin-top:0;
+padding-top:0;
+border-bottom:#444444 thin solid;
+padding-bottom:5px;
+margin-bottom:10px;
+
+}
+.testimonial{margin-top:0;
+}
+
+.secondline{margin-bottom:0;
+margin-top:0;
+}
+
+
+a.btn.btn-default.space-bot-sm:link{border:1px solid #b0b0b0;
+}
+a.btn.btn-default.space-bot-sm:active{border:1px solid #b0b0b0;
+}
+a.btn.btn-default.space-bot-sm:hover{border:1px solid #b0b0b0;
+}
+a.btn.btn-default.space-bot-sm:visited{border:1px solid #b0b0b0;
+}
+
+a:link{color:#082570;
+font-weight:bold;
+display:inline;
+text-decoration:none;
+border-bottom:none;
+}
+
+a:active{color:#082570;
+font-weight:bold;
+display:inline;
+text-decoration:none;
+border-bottom:none;
+}
+
+a:hover{color:#F0ad4e;
+text-decoration:none;
+border-bottom:none;
+}
+
+a:visited{color:#082570;
+font-weight:bold;
+display:inline;
+text-decoration:none;
+border-bottom:none;
+}
+
+a.carousel-color{color:#FFFFFF;
+}
+
+a.list-group-item{padding-bottom:15px;
+display:block;
+}
+
+.entry-title{display:none;
+}
+
+.asu-breadcrumbs{display:none;
+}
+.jumbotron{background-color:#f0ad4e;
+padding-top:20px;
+padding-bottom:15px;
+}
+
+.btn-walton{background-color:#F0AD4E;
+}
+/* ul li{list-style-type:disc;
+	}
+	*/ 
+	
+	ul{margin-left:0px;
+	border:none;
+	text-decoration:none;
+	}
+	
+ul.listings {margin-left:0px;
+border-bottom:none;
+padding-top:10px;
+}
+
+.listings li{
+padding-top:10px;
+list-style-type:none;
+text-decoration:none;
+}
+
+ul.course-listings {margin-left:0px;
+border-bottom:none;
+}
+
+.course-listings li{
+list-style-type:none;
+text-decoration:none;
+}
+
+
+.none li{
+	list-style-type:none;
+	margin-left:15px;
+}
+
+.none-style{	margin-left:0px;
+}
+
+.none-style li{
+	list-style-type:none;
+	padding-bottom:10px;
+}
+
+/* PROJECT ASSET ITEMS */
+.list-group{margin-bottom:0px;
+}
+
+p{font-size:16px;
+line-height:1.5;
+}
+
+/* ACCORDION PANEL */
+.panel-group .panel{border:none;
+border-radius:none;
+}
+
+.panel{background-color:#213A73;
+}
+
+.panel-heading{height:45px;
+padding-top:0px;}
+
+.accordion-link:link{
+color:#FFFFFF;
+}
+
+.accordion-link:active{
+color:#FFFFFF;
+}
+.accordion-link:hover{
+color:#FFFFFF;
+}
+.accordion-link:visited{
+color:#FFFFFF;
+}
+
+@media  ( max-width: 991px ) {
+.panel-heading{height:70px;
+padding-top:0;}
+}
+
+@media  ( max-width: 767px ) {
+.panel-heading{height:70px;
+padding-top:0;}
+}
+
+@media  ( max-width: 325px ) {
+.panel-heading{height:105px;
+padding-top:0;}
+}
+
+.panel-body{background-color:#f5f5f5;
+}
+
+/*WELL TESTIMONIALS */
+.well{
+background-color: #ffe5ba;
+background-image:none;
+background-repeat:none;
+border:none;
+}
+
+
+/*BLOCKQUOTES */
+blockquote{border-left:2px solid #082570;
+border-radius:4px;
+margin:8px 2px 0px 1px;
+padding: 15px 18px 10px;
+background-color:#EDEDED;
+line-height:16px;
+font-size:16px;
+}
+
+/*PEOPLE AFFIX SIDEBAR */
+.adhere-top-people{
+width:320px;
+margin-left:0px;
+position:fixed;
+padding-bottom:150px;
+}
+
+cite{color:#082570;
+}
+
+/* EMSL AFFIX SIDEBAR */
+.adhere-top{position:fixed;
+width:100px;
+}
+
+.no-dots{list-style-type:none;
+padding-bottom:10px;
+}
+
+.request-info-toggle {
+  display: none !important;
+}
+.site-content {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.site-footer {
+  margin-top: 20px;
+}
+
