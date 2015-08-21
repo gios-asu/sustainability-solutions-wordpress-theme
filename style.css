@@ -20,7 +20,6 @@ body{font-size:16px;
 }
 
 .hero-bg-img h1{font-size:60px;
-font-family:Helvetica, Arial, sans serif;
 font-weight:700;
 text-shadow:0px 0px 15px #000000;
 text-align:center;
@@ -47,10 +46,14 @@ padding-bottom:20px;
 }
 
 h4{font-size:18px;
+padding:0px;
+margin:0px;
 }
 
 h5{font-size:14px;
 line-height:19px;
+margin:0px;
+padding:0px;
 }
 
 .navbar navbar-default container{padding-right:none;
@@ -71,7 +74,7 @@ margin-bottom:10px;
 margin-top:0;
 }
 
-
+/*
 a.btn.btn-default.space-bot-sm:link{border:1px solid #b0b0b0;
 }
 a.btn.btn-default.space-bot-sm:active{border:1px solid #b0b0b0;
@@ -106,9 +109,10 @@ display:inline;
 text-decoration:none;
 border-bottom:none;
 }
-
+*/
 a.carousel-color{color:#FFFFFF;
 }
+
 
 a.list-group-item{padding-bottom:15px;
 display:block;
@@ -117,8 +121,6 @@ display:block;
 .entry-title{display:none;
 }
 
-.asu-breadcrumbs{display:none;
-}
 .jumbotron{background-color:#f0ad4e;
 padding-top:20px;
 padding-bottom:15px;
@@ -126,6 +128,15 @@ padding-bottom:15px;
 
 .btn-walton{background-color:#F0AD4E;
 }
+
+a.carousel-control.left{
+	background:none;
+}
+
+a.carousel-control.right{
+	background:none;
+}
+
 /* ul li{list-style-type:disc;
 	}
 	*/ 
@@ -175,6 +186,14 @@ text-decoration:none;
 
 p{font-size:16px;
 line-height:1.5;
+}
+
+.nav-tabs li {
+	border-top:5px solid #666;
+}
+
+.nav-tabs li a{
+	color: #666666;
 }
 
 /* ACCORDION PANEL */
